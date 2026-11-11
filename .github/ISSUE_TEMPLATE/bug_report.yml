@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a problem you found in Facturu
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: When did the problem happen?
+      placeholder: "DD-MM-YYYY"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect to happen?
+      placeholder: Describe the problem clearly...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the problem?
+      placeholder: |
+        1. Open ...
+        2. Click on ...
+        3. See error ...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Facturu Version
+      description: You can find it in Help → About.
+      placeholder: "e.g. 1.4.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag and drop or paste an image here (optional).
+    validations:
+      required: false

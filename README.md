@@ -1,1 +1,2 @@
-# Facturu Bug-Report
+# Facturu Issues & Bug-Report
+
